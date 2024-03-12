@@ -2,8 +2,8 @@
 setlocal enabledelayedexpansion
 
 :: Declare paths for FFmpeg and RNNoise, and define necessary audio format variables
-SET "ffmpeg=P:/soft/scripts/nouffmpeg/bin/ffmpeg.exe"
-SET "rnnoise=P:/Doc/_Tecnica/_Audiovisuals/_LAB/IA/Audio/240304-RNNoise/rnnoise_windows/examples/rnnoise_demo.exe"
+SET "ffmpeg=your-directory-to-ffmpeg/ffmpeg.exe"
+SET "rnnoise=your-directory-to-cloned-repository/Audio-Enhancer-RNN/rnnoise_windows/examples/rnnoise_demo.exe"
 SET "pcm=pcm_s16le"
 SET "sample_rate=48000"
 SET "format=s16le"
